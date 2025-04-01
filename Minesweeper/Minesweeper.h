@@ -4,8 +4,15 @@
 
 class Minesweeper {
 
+private: int rows; 
+	   int cols;
+	   int numMines;
+	   char **boards; 
+
+
 public:
 	void startgame();
+
 
 
 

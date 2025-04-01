@@ -1,11 +1,11 @@
 #include<iostream>
-
+#include "Minesweeper.h"
 
 int main() {
-
-	std::cout << "This the minesweeper project";
-
-	return 0;
+	Minesweeper game;
+	game.startgame();
+		
+		return 0;
 
 
 
