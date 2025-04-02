@@ -2,8 +2,8 @@
 #include "Minesweeper.h"
 
 int main() {
-	Minesweeper game;
-	game.startgame();
+	Minesweeper game(5,5,3);
+	game.printboard();
 		
 		return 0;
 
